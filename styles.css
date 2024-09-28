@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header {
+    background-color: whitesmoke;
+    padding: 40px;
+    font-size: 36px;
+}
+
+p.header {
+    padding: 0;
+}
+
+.inputContainer,
+.likesContainer {
+    text-align: center;
+    border: black 1px dashed;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+
+button {
+    margin: 16px 8px 0px;
+    background-color: whitesmoke;
+    padding: 8px 16px;
+}
+
+button:hover {
+    background-color: rgb(238, 238, 238)
+}
+
+button:active {
+    background-color: rgb(238, 238, 238);
+    transform: translateY(1px);
+}
+
+.removeBtn {
+    font-size: 12;
+    border: 1px;
+    color: red;
+    margin: 0px 18px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+#colorText {
+    font-weight: 600;
+}
+
+#subtext {
+    font-size: 14px;
+}
